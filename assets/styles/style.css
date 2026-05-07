@@ -137,7 +137,6 @@ header {
 }
 
 .section-2down {
-  border: solid;
   margin-bottom: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -184,4 +183,23 @@ header {
 
 .rightbackground {
   background-color: var(--square-background);
+}
+
+.righttext {
+  align-content: center;
+}
+
+.rightcontents {
+  margin-left: 50px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.leftimg {
+  background-image: url("../images/Work Together Image.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
 }
