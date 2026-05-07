@@ -8,8 +8,14 @@ body {
   font-family: Inter, sans-serif;
 }
 
+:root {
+  --main-color: #043873;
+  --square-background: #c4defd;
+  --btn-color: #4f9cf9;
+}
+
 header {
-  background-color: #043873;
+  background-color: var(--main-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -72,7 +78,7 @@ header {
 }
 
 .btn2 {
-  background-color: #4f9cf9;
+  background-color: var(--btn-color);
   color: white;
   padding: 20px;
   border-radius: 10px;
@@ -82,7 +88,7 @@ header {
 .section-1 {
   height: 85vh;
   display: flex;
-  background-color: #043873;
+  background-color: var(--main-color);
   align-items: center;
   justify-content: center;
   background-image: url("../images/Element.svg");
@@ -113,4 +119,69 @@ header {
   width: 820px;
   height: 500px;
   background-color: #c4defd;
+}
+
+.section-2 {
+  height: 160vh;
+  display: grid;
+  grid-template-rows: 540px 600px;
+  gap: 60px;
+  background-image: url("../images/BACKGROUND.svg");
+  background-repeat: no-repeat;
+}
+
+.section-2up {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.section-2down {
+  border: solid;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.leftcontents {
+  margin: 50px 20px 50px 0;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.blackheadings {
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+.highlight {
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.highlight::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0.1em; /* Adjusts vertical placement */
+  width: 100%;
+  height: 0.2em; /* Adjusts thickness of the underline */
+  background-color: #ffd700; /* Use a yellow or gold hex code */
+  z-index: -1; /* Places the underline behind the text */
+  opacity: 0.6; /* Gives it a semi-transparent 'highlighter' look */
+
+  /* Optional: Add a slight rotation or border-radius for a hand-drawn feel */
+  transform: rotate(-1deg);
+  border-radius: 2px;
+}
+
+.blacktext {
+  line-height: 25px;
+}
+
+.rightbackground {
+  background-color: var(--square-background);
 }
