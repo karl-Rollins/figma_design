@@ -314,3 +314,26 @@ header {
   cursor: pointer;
   background: none;
 }
+
+.card-3contents {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.card-3checklist {
+  list-style-type: none;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card3-btn {
+  border: 1px solid #ffe492;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background: none;
+}
