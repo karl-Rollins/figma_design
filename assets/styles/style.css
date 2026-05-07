@@ -203,3 +203,24 @@ header {
   background-position: center;
   background-size: 100% 100%;
 }
+
+.section-3 {
+  background-color: var(--main-color);
+  height: 70vh;
+  display: grid;
+  grid-template-columns: 500px 530px;
+  gap: 50px;
+}
+
+.section-3left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 250px;
+  align-self: center;
+}
+
+.section-3right {
+  height: 400px;
+  align-self: center;
+}
