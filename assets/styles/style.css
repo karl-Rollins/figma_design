@@ -330,7 +330,22 @@ header {
   gap: 15px;
 }
 
+.card-3checklist li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  align-content: center;
+}
+
 .card3-btn {
+  border: 1px solid #ffe492;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background: none;
+}
+
+.card-3btn {
   border: 1px solid #ffe492;
   border-radius: 8px;
   padding: 10px 20px;
