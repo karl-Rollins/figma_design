@@ -13,6 +13,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.page-padding {
   padding: 10px 220px;
 }
 
@@ -63,14 +66,14 @@ header {
   background-color: #fde492;
   color: #043873;
   width: 100px;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
 }
 
 .btn2 {
   background-color: #4f9cf9;
   color: white;
-}
-
-.button button {
   padding: 20px;
   border-radius: 10px;
   border: none;
@@ -78,5 +81,36 @@ header {
 
 .section-1 {
   height: 85vh;
+  display: flex;
   background-color: #043873;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/Element.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section-1text {
+  width: 550px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.whitecolor-headings {
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.whitecolor-text {
+  color: white;
+}
+
+.section-1square {
+  width: 820px;
+  height: 500px;
+  background-color: #c4defd;
 }
