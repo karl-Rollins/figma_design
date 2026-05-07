@@ -224,3 +224,14 @@ header {
   height: 400px;
   align-self: center;
 }
+
+.section-4 {
+  height: 70vh;
+  display: grid;
+  grid-template-columns: 530px 500px;
+  gap: 50px;
+}
+
+.section-4right {
+  height: 300px;
+}
