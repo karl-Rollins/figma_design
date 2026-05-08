@@ -315,6 +315,37 @@ header {
   background: none;
 }
 
+.card-2contents {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  color: white;
+}
+
+.card-2checklist {
+  list-style-type: none;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-2checklist li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  align-content: center;
+}
+
+.card-2checklist i {
+  color: #ffe492;
+}
+
+.card-2dollar {
+  color: #ffe492;
+}
+
 .card-3contents {
   padding: 30px;
   display: flex;
@@ -335,14 +366,6 @@ header {
   align-items: flex-start;
   gap: 10px;
   align-content: center;
-}
-
-.card3-btn {
-  border: 1px solid #ffe492;
-  border-radius: 8px;
-  padding: 10px 20px;
-  cursor: pointer;
-  background: none;
 }
 
 .card-3btn {
