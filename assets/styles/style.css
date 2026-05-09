@@ -505,7 +505,7 @@ header {
 }
 
 .section-10card1 {
-  box-shadow: 5px 5px 10px #888888;
+  box-shadow: 5px 5px 10px #888;
   display: grid;
   grid-template-rows: 1fr 1fr;
   border-radius: 8px;
