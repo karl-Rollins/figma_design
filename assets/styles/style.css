@@ -583,3 +583,29 @@ header {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.section-11 {
+  background-color: var(--main-color);
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+}
+
+.section-11contents {
+  width: 550px;
+  height: 400px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.section-11logos {
+  background-image: url("../images/App-icon.svg");
+  background-position: center;
+  background-size: 100% 100%;
+  width: 200px;
+  height: 50px;
+}
