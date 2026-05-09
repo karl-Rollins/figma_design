@@ -483,3 +483,103 @@ header {
   flex-direction: column;
   justify-content: space-between;
 }
+
+.section-10 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-10header {
+  margin-top: 100px;
+}
+
+.section-10cards {
+  margin-top: 50px;
+  width: 100%;
+  height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.section-10card1 {
+  box-shadow: 5px 5px 10px #888888;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.section-10card2 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  background: var(--btn-color);
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.section-10card3 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  background: var(--btn-color);
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.cardup {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+.carddown {
+  border-top: 1px solid;
+  display: flex;
+  align-items: center;
+}
+
+.carddown2 {
+  border-top: 1px solid white;
+}
+
+.cardup i {
+  font-size: 60px;
+  color: var(--main-color);
+}
+
+.section-10card2 i {
+  color: white;
+}
+
+.section-10card3 i {
+  color: white;
+}
+
+.cardfigure {
+  display: flex;
+  gap: 15px;
+}
+
+.cardfigure figcaption {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cardfigure img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.section-10slider {
+  margin-top: 50px;
+  height: 5px;
+  width: 100px;
+  background-image: url("../images/Slider.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
