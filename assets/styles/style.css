@@ -756,7 +756,7 @@ footer {
   }
 
   footer {
-    height: 40vh;
+    height: 45vh;
   }
 
   .footer-contents {
@@ -788,8 +788,227 @@ footer {
   .section-9 {
     background-size: 100% 100%;
     display: grid;
-    grid-template-columns: 400px 600px;
+    grid-template-columns: 400px 1fr;
     gap: 60px;
     justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .button {
+    display: none;
+  }
+
+  .section-1 {
+    flex-direction: column;
+    height: 110vh;
+  }
+
+  .section-1text {
+    margin: 50px 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  .section-1square {
+    width: 400px;
+    height: 300px;
+  }
+
+  .section-2 {
+    height: auto;
+    grid-template-rows: auto;
+    align-items: center;
+    text-align: center;
+  }
+
+  .section-2up {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .section-2down {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    order: 1;
+  }
+
+  /* Target the first child (was on the left) */
+  .section-2down > *:first-child {
+    order: 2; /* Move to bottom */
+  }
+
+  .section-3 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    margin: 50px 0;
+    padding-bottom: 50px;
+  }
+
+  .section-4 {
+    height: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .section-6 {
+    margin-top: 150px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .section-7 {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+  }
+
+  .section-8 {
+    height: auto;
+    margin-top: 100px;
+  }
+
+  .section-8logolinks {
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .section-8logolinks img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .section-9 {
+    height: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    gap: 0;
+  }
+
+  .section-9left {
+    height: 50vh;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .section-9right {
+    height: 50vh;
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+
+  .section-10 {
+    height: 110vh;
+  }
+
+  .section-10slider {
+    height: 10px;
+    margin-top: 250px;
+  }
+
+  .section-10card3 {
+    display: none;
+  }
+
+  footer {
+    height: 100vh;
+    width: 100%;
+  }
+
+  .footer-contents {
+    margin-top: 65px;
+    display: grid;
+    grid-template-rows: auto auto;
+  }
+
+  .footer-info1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-info2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .footer-info3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .footer-info4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .footer-info5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+  .footer-up {
+    height: auto;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    margin-top: 0;
+    padding-top: 0;
+    gap: o;
+    text-align: center;
+    align-items: center;
+  }
+
+  .footer-down {
+    width: 80%;
+    margin: auto;
+    border-top: 1px solid rgb(128 124 124);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .footer-up p {
+    font-size: 20px;
+  }
+
+  .footer-down p {
+    font-size: 15px;
+  }
+
+  .footer-down span {
+    font-size: 15px;
+  }
+
+  .copyright {
+    font-size: 15px;
   }
 }
