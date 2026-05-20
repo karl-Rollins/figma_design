@@ -770,6 +770,7 @@ footer {
 @media (max-width: 1152px) {
   .hamburger {
     display: block;
+    margin-left: 20px;
   }
 
   .bar {
@@ -782,5 +783,13 @@ footer {
 
   .nav {
     display: none;
+  }
+
+  .section-9 {
+    background-size: 100% 100%;
+    display: grid;
+    grid-template-columns: 400px 600px;
+    gap: 60px;
+    justify-content: center;
   }
 }
