@@ -4,7 +4,7 @@ A page, initially designed with figma but replicated using just HTML and CSS
 
 ## 📌 Problem Statement
 
-Many developers have lost their touch in styling websites and making it responsive to different screen sizes. This project helped me understand what each CSS property does and how to make a page responsive to all screen sizes.
+Many developers have lost their touch in styling sites and making it responsive to different screen sizes. This project helped me understand what each CSS property does and how to make a page responsive to all screen sizes.
 
 ## 🎯 Project Goals
 
@@ -46,7 +46,7 @@ cd figma_design
 ```
 
 - run the code on vscode
-- Click on 'Go Live' to view Page on website.
+- Click on 'Go Live' to view Page on site.
 - Or simply click the link <https://figma-design-4y64.vercel.app/>
 
 🧠 Challenges Faced
