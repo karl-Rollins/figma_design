@@ -1,4 +1,4 @@
-# 🏷 Project Name
+# 🏷 Whitepace — SaaS Landing Page
 
 A page, initially designed with figma but replicated using just HTML and CSS
 
@@ -30,7 +30,7 @@ Many developers have lost their touch in styling sites and making it responsive 
 
 ## 📷 Screenshots
 
-![How it looks on desktop](<assets/images/Screenshot from 2026-05-22 03-42-22.png>)
+![How it looks on desktop](<assets/images/main - 2026-06-02_15-32.png>)
 
 How it Looks on Mobile
 

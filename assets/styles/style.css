@@ -125,6 +125,10 @@ header {
   width: 820px;
   height: 500px;
   background-color: #c4defd;
+  background-image: url("../images/undraw_design-tools_wgpz (1).svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
 }
 
 .section-2 {
@@ -189,6 +193,10 @@ header {
 
 .rightbackground {
   background-color: var(--square-background);
+  background-image: url("../images/undraw_share-everywhere_h2ep.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
 }
 
 .righttext {
